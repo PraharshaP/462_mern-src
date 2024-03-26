@@ -1,0 +1,57 @@
+/* Container 1 styles */
+.cont_1 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 25px; /* Add border radius */
+  background-color: hsl(120, 50%, 77%); /* Light green background */
+}
+
+/* Container 2 styles */
+/* .cont_2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 25px; /* Add border radius */
+  /* background-color: rgb(131, 183, 200);
+} */ */
+
+/* Card container styles */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  border: 1px solid;
+}
+
+/* Individual card styles */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 3D box shadow effect */
+}
+
+/* Hover effect for the 3D effect */
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adjusted shadow on hover for depth */
+  transform: scale(1.05); /* Slight scale increase on hover */
+}
+
+/* Card body styles */
+.card-body {
+  padding: 15px;
+}
+
+/* Card title styles */
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Card text styles */
+.card-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
